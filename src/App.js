@@ -1,10 +1,12 @@
-import './App.css';
+import * as React from "react";
+import Main from "./Main";
+import "./App.css"
 
 function App() {
   return (
-    <>
-    
-    </>
+   <>
+      <Main/>
+   </>
   );
 }
 
