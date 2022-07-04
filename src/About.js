@@ -7,14 +7,14 @@ const Me = () => {
 
         <div className='about'>
             <div>
-                <img className="image" src="./img/me.jpg" alt="perfil"></img>
+                <img className="image" src="./img/me.jpeg" alt="perfil"></img>
             </div>
-            <div className='hobbies'>
+            <div className='about-me'>
+                <div>Universidad Tecnológica de Aguascalientes</div>
+                <div>Ingeniería en Desarrollo y Gestión de Software</div>
+                <div>Diseño Web Profesional</div>
                 <div> Jesús Andrés Chacón Hernández </div>
                 <div>Matricula: 161000</div>
-                <div>Universidad Tecnologica de Aguascalientes</div>
-                <div>Ingenieria en Desarrollo y Gestion de Software</div>
-                <div>Diseño Web Profesional</div>
             </div>
         </div>
     );

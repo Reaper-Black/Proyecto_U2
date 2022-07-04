@@ -7,12 +7,6 @@ import Me from "./About.js"
 import Dir from "./Navbar.js"
 
 const Home = () => {
-    // eslint-disable-next-line
-    const Inicio = () => <h1>Home</h1>;
-    // eslint-disable-next-line
-    const Pokemon = () => <h1>Pokemon List</h1>;
-    // eslint-disable-next-line
-    const About = () => <h1>161000</h1>;
 
     return (
         <div>
