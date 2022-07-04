@@ -4,15 +4,13 @@ import "./App.css"
 const Dir = () => {
 
     return (
-        <div>
-            <nav>
-                <ul>
-                    <li><button><a href="/pokemons"> Pokemons </a></button></li>
-                    <li><button><a href="/pokemonsinfo"> Pokemons Info </a></button></li>
-                    <li><button><a href="/matricula"> 161000 </a></button></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <div className='options'>
+                <a href="/pokemons" className='hover-underline-animation'> Pokemons </a>
+                <a href="/pokemonsinfo" className='hover-underline-animation'> Pokemons Information </a>
+                <a href="/matricula" className='hover-underline-animation'> 161000 </a>
+            </div>
+        </nav>
     );
 
 };
