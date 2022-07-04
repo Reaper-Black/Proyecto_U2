@@ -19,8 +19,19 @@ body{
 }
 .left-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
-    grid-gap:2rem;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.9fr));
+    grid-gap:4rem;
+    right: 10px;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.2fr));
+    grid-gap:5.3rem;
+    position: absolute;
+    right: 100px;
+    left: 20px;
+    top: 100px;
 }
 .card{
     width: 300px;
@@ -120,7 +131,7 @@ body{
     margin-bottom: 50px;
 }
 
-.about-me {
+.about-me{
     margin: 0;
     font-family: 'Indie Flower', cursive;
     font-family: 'Stick No Bills', sans-serif;
@@ -128,9 +139,12 @@ body{
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
+    left: 800px;
+    top: 115px;
     text-align: center;
     background-color: #F8485E;
-    width: 100vw;
+    position: absolute;
+    width: auto;
     color: black;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.65);
     text-align: center;
@@ -159,7 +173,7 @@ nav {
 .options a {
     display: inline-block;
     background: linear-gradient(to right, #512D6D 0%, #F8485E 51%, #00C1D4 100%);
-    color: #fff;
+    color: black;
     letter-spacing: 0;
     font-family: 'Indie Flower', cursive;
     font-family: 'Stick No Bills', sans-serif;
@@ -176,7 +190,7 @@ nav {
 }
 
 .options a:hover {
-    color: #ffffff;
+    color: black;
     transform: scale(1.2);
     opacity: 1;
     transition: all 0.3s ease-in-out;
@@ -184,7 +198,7 @@ nav {
 
 .options a:link,
 .options a:visited {
-    color: whitesmoke;
+    color: black;
     outline: transparent;
     text-decoration: none;
 }
@@ -202,7 +216,7 @@ nav {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #ffffff;
+    background-color: black;
     transform-origin: bottom left;
     transition: transform 0.25s ease-out;
   }

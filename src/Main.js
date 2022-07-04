@@ -36,7 +36,7 @@ const Main=()=>{
     return(
         <>
             <div className="container">
-                <div className="left-content">
+                <div className="cont">
                     <Card pokemon={pokeData} loading={loading}/>
                     <div className="btn-group">
                         {  prevUrl && <button onClick={()=>{
