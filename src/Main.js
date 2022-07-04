@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "./Card";
-import Pokeinfo from "./Pokeinfo";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";

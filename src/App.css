@@ -101,6 +101,8 @@ body{
 .Images{
     width: 700px;
     height: 500px;
+    vertical-align: middle;
+    border-style: none
 }
 
 .hobbies {
@@ -112,4 +114,37 @@ body{
     color: #212529;
     text-align: left;
     background-color: #fff
+}
+
+nav ul {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    list-style-type: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(31, 3, 3);
+    padding: 20px;
+    width: 80px;
+    margin-left: 20%;
+}
+
+nav li:hover {
+    background-color: #6c757d
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
 }
